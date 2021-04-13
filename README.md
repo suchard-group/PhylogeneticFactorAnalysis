@@ -23,5 +23,9 @@ Public repository for TODO: paper citation
 - __gallone_s5.xlsx__: industrial yeast phenotypic data (with metadata). Table S5 from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020).
 - __gallone_s5_values.csv__: manually re-formatted yeast phenotype values from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020) Table S5.
 - __gallone_s5_metadata.csv__: manually re-formatted yeast phenotype metadata from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020) Table S5.
-## Processed data
+#### Processed data
+
+### Aquilegia pollination
+#### Raw data
+- __Aquilegia.nex__: Aquilegia tree and phenotypes. Data is from [Whithall & Hodges (2007)](https://doi.org/10.1038/nature05857). While the raw data was not published with the original study, it was publicly available via the [Bodega Bay Phylogenetics](http://treethinkers.org/) archived website: http://bodegaphylo.wikispot.org (accessed via the [internet archive](https://archive.org/)).
 
