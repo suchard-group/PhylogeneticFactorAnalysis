@@ -1,11 +1,15 @@
 # PhylogeneticFactorAnalysis
 Public repository for TODO: paper citation
 
-## Data
-
-### Aquilegia pollination
-#### Raw data
+## Aquilegia pollination
+### Raw data
 - __Aquilegia.nex__: Aquilegia tree and phenotypes. Data is from [Whithall & Hodges (2007)](https://doi.org/10.1038/nature05857). While the raw data was not published with the original study, it was publicly available via the [Bodega Bay Phylogenetics](http://treethinkers.org/) archived website: http://bodegaphylo.wikispot.org (accessed via the [internet archive](https://archive.org/)).
+### Processed data
+- __aquilegia.csv__: CSV file containing parsed data from __Aquilegia.nex__. Produced by running __aquilegia_process.jl__ script.
+- __aquilegia_binary.csv__: Manually edited copy of __aquilegia.csv__ where the categorical "syndrome" variable has been replaced with the three binary variables "hummingbird", "bumblebee", and "hawk moth" using information from Figure 3 of [Whithall & Hodges (2007)](https://doi.org/10.1038/nature05857).
+- __aquilegia_newick.txt__: Newick-formatted tree file. Produced by running __aquilegia_process.jl__ script.
+### Scripts
+- __aquilegia_process.jl__: Julia script that parses information in __Aquilegia.nex__ and outputs __aquilegia.csv__ and __aquilegia_newick.txt__.
 
 ### Mammalian life history
 #### Raw data
