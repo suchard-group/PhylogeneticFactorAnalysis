@@ -2,14 +2,10 @@
 Public repository for TODO: paper citation
 
 ## Data
-### New World monkey cranial morphology
+
+### Aquilegia pollination
 #### Raw data
-- __nwn_brain_coordinates.tps__: 3-d procrusted coordinates for New World monkey cranial landmarks and semi-landmarks. Same data as used in [Aristide et al. (2016)](https://doi.org/10.1073/pnas.1514473113), but not publicly available.
-- __nwm_newick.txt__: Newick format phylogenetic tree for the New World monkeys. Sourced from Dataset_S02 in Supporting Information of [Aristide et al. (2016)](https://doi.org/10.1073/pnas.1514473113).
-#### Processed data
-- __nwm_coord_means.csv__: Mean values for each cranial landmark accross all species.
-- __nwm_coordinates.csv__: Coordinates processed for PFA. All values were centered to have 0 mean. Values were scaled by the __TODO__
-- __nwm_newick_processed.csv__: Newick format phylogenetic tree with some taxa removed.
+- __Aquilegia.nex__: Aquilegia tree and phenotypes. Data is from [Whithall & Hodges (2007)](https://doi.org/10.1038/nature05857). While the raw data was not published with the original study, it was publicly available via the [Bodega Bay Phylogenetics](http://treethinkers.org/) archived website: http://bodegaphylo.wikispot.org (accessed via the [internet archive](https://archive.org/)).
 
 ### Mammalian life history
 #### Raw data
@@ -18,6 +14,17 @@ Public repository for TODO: paper citation
 - __mammals_newick.txt__: the __mammalST_MSW05_bestDates__ tree manually copied from  __ele_1307_sm_sa1.tre__.
 #### Processed data
 
+### New World monkey cranial morphology
+#### Raw data
+- __nwn_brain_coordinates.tps__: 3-d procrusted coordinates for New World monkey cranial landmarks and semi-landmarks. Same data as used in [Aristide et al. (2016)](https://doi.org/10.1073/pnas.1514473113), but not publicly available (contact us for file).
+- __nwm_newick.txt__: Newick format phylogenetic tree for the New World monkeys. Sourced from Dataset_S02 in Supporting Information of [Aristide et al. (2016)](https://doi.org/10.1073/pnas.1514473113).
+#### Processed data
+- __nwm_coord_means.csv__: Mean values for each cranial landmark accross all species (contact us for file).
+- __nwm_coordinates.csv__: Coordinates processed for PFA. All values were centered to have 0 mean. Values were scaled by the __TODO__ (contact us for file)
+- __nwm_newick_processed.csv__: Newick format phylogenetic tree with some taxa removed.
+
+
+
 ### Yeast domestication
 #### Raw data
 - __gallone_s5.xlsx__: industrial yeast phenotypic data (with metadata). Table S5 from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020).
@@ -25,7 +32,4 @@ Public repository for TODO: paper citation
 - __gallone_s5_metadata.csv__: manually re-formatted yeast phenotype metadata from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020) Table S5.
 #### Processed data
 
-### Aquilegia pollination
-#### Raw data
-- __Aquilegia.nex__: Aquilegia tree and phenotypes. Data is from [Whithall & Hodges (2007)](https://doi.org/10.1038/nature05857). While the raw data was not published with the original study, it was publicly available via the [Bodega Bay Phylogenetics](http://treethinkers.org/) archived website: http://bodegaphylo.wikispot.org (accessed via the [internet archive](https://archive.org/)).
 
