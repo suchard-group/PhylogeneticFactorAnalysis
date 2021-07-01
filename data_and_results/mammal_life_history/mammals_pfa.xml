@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phylogeneticFactorAnalysis name="mammals" partitionSeed="666" mcmcSeed="666" overwrite="true" standardizeTraits="true">
+  <data traits="mammals.csv" tree="mammals_newick_processed.txt"/>
+  <iidPrior constraint="hybrid"/>
+  <modelSelection repeats="5" burnin="0.25">
+    <nFactors>1 2 3 4 5</nFactors>
+    <mcmcOptions chainLength="10000"/>
+  </modelSelection>
+  <mcmcOptions chainLength="10000"/>
+  <plotting traitLabels="mammals_labels.csv" taxonClassification="mammals_classification.csv"/>
+</phylogeneticFactorAnalysis>
+

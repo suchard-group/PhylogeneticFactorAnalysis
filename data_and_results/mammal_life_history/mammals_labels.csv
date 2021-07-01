@@ -1,0 +1,12 @@
+﻿traits,pretty,cat
+5-1_AdultBodyMass_g,body mass,size
+9-1_GestationLen_d,gestation length,age
+25-1_WeaningAge_d,age at weaning,age
+7-1_DispersalAge_d,age at dispersal,age
+23-1_SexualMaturityAge_d,age at sexual maturity,age
+3-1_AgeatFirstBirth_d,age at first birth,age
+17-1_MaxLongevity_m,maximum longevity,age
+14-1_InterbirthInterval_d,interbirth interval,reproduction
+15-1_LitterSize,litter size,reproduction
+16-1_LittersPerYear,litter frequency,reproduction
+24-1_TeatNumber,teat number,reproduction
