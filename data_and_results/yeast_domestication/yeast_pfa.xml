@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phylogeneticFactorAnalysis name="yeast_rrw" partitionSeed="666" mcmcSeed="666" overwrite="true" standardizeTraits="true" sequenceXML="yeast_rrw.xml">
+  <data traits="yeast_continuous.csv" tree="yeast_rrw.nwk"/>
+  <orthogonalShrinkagePrior forceDescendingScales="true" spacing="0.8"/>
+  <modelSelection repeats="5" selectionStatistic="CLPD" burnin="0.25">
+    <nFactors>5</nFactors>
+    <shrinkageStrength>30</shrinkageStrength>
+    <mcmcOptions chainLength="50000"/>
+  </modelSelection>
+  <mcmcOptions chainLength="10000000"/>
+</phylogeneticFactorAnalysis>
+
