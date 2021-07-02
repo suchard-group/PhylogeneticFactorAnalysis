@@ -48,10 +48,18 @@ Public repository for TODO: paper citation
 ### Processed data
 - __yeast_continuous.csv__: Yeast data ready for use in PFA. Produced by __yeast_process.jl__.
 - __yeast_labels.csv__: Yeast trait labels used for plotting. Produced by __yeast_process.jl__.
+- __yeast_rrw.nwk__: Newick-formatted tree file generated from processing output of __yeast_rrw.xml__ BEAST run with [TreeAnnotator](https://beast.community/treeannotator).
 ### Scripts
 - __yeast_pfa.xml__: Input file with instructions for [PhylogeneticFactorAnalysis.jl](https://github.com/gabehassler/PhylogeneticFactorAnalysis.jl) run.
 - __yeast_process.jl__: Julia script that inputs __gallone_s5_values.csv__ and __gallone_s5_metadata.csv__ and outputs ...
 - __yeast_rrw.xml__: BEAST xml input file for inferring yeast phylogeny. Sequence data originated from 2.8 MB super-alignment from [Gallone et al. (2016)](https://doi.org/10.1016/j.cell.2016.08.020) (file to large to inclue in this repository; please contact us for access)
 
+## Computational efficiency comparison
+### Scripts
+- __timing.R__: R script to generate computational efficiency figure. Uses __results.csv__ as input.
+- __timing_analysis.jl__: Processes results of timing comparison to make SI Table 1.
+- __timing_basic.jl__: Performs simulation-based computational efficiency comparison. Outputs __results.csv__ file.
+### Results
+- __results.csv__: CSV file summarizing results of simulation study. Produced by __timing_basic.jl__.
 
 
