@@ -1,0 +1,15 @@
+trait,pretty,cat
+OR.,orientation,floral phenotype
+LOG_SP_L,spur length,floral phenotype
+BL_L,blade length,floral phenotype
+SE_L,sepal length,floral phenotype
+SP-chroma,spur chroma,floral phenotype
+SP-hue,spur hue,floral phenotype
+SP-brightness,spur brightness,floral phenotype
+BL-chroma,blade chroma,floral phenotype
+BL-hue,blade hue,floral phenotype
+BL-brightness,blade brightness,floral phenotype
+anthocyanins,anthocyanins,floral phenotype
+bumblebee,bumblebee,pollinator
+hummingbird,hummingbird,pollinator
+hawk moth,hawk moth,pollinator

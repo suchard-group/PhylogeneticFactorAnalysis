@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phylogeneticFactorAnalysis name="aquilegiaBinary" partitionSeed="666" mcmcSeed="666" overwrite="true" standardizeTraits="true">
+  <data traits="aquilegia_binary.csv" tree="aquilegia_newick.txt" discreteIndices="11 12 13 14"/>
+  <iidPrior constraint="orthogonal"/>
+  <modelSelection repeats="5" selectionStatistic="CLPD" burnin="0.25">
+    <nFactors>1 2 3 4 5</nFactors>
+    <mcmcOptions chainLength="100000"/>
+  </modelSelection>
+  <mcmcOptions chainLength="100000"/>
+  <plotting labels="aquilegia_labels_binary.csv"/>
+</phylogeneticFactorAnalysis>
+
