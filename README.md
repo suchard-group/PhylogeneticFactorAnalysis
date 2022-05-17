@@ -1,5 +1,5 @@
-# PhylogeneticFactorAnalysis
-Public repository for TODO: paper citation
+# Phylogenetic Factor Analysis
+Public repository for _Principled, practical, flexible, fast: a new approach to phylogenetic factor analysis_
 
 ## Aquilegia pollination
 ### Raw data
@@ -41,8 +41,8 @@ Public repository for TODO: paper citation
 - __nwm_newick.txt__: Newick format phylogenetic tree for the New World monkeys. Sourced from Dataset_S02 in Supporting Information of [Aristide et al. (2016)](https://doi.org/10.1073/pnas.1514473113).
 ### Processed data
 - __nwm_coord_means.csv__: Mean values for each cranial landmark accross all species (contact us for file).
-- __nwm_coordinates.csv__: Coordinates processed for PFA. All values were centered to have 0 mean. Values were scaled by the __TODO__ (contact us for file)
-- __nwm_newick_processed.csv__: Newick format phylogenetic tree with some taxa removed.
+- __nwm_coordinates.csv__: Coordinates processed for PFA. All values were centered to have 0 mean. Values were scaled by the maximum per-trait standard deviation (contact us for file)
+- __nwm_newick_processed.txt__: Newick format phylogenetic tree with some taxa removed.
 
 
 
